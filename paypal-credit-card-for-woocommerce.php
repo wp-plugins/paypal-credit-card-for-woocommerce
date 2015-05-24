@@ -6,7 +6,7 @@
  * Plugin Name:       PayPal Credit Card for WooCommerce
  * Plugin URI:        http://webs-spider.com/
  * Description:       Provides a Credit Card Payment Gateway WooCommerece. No Coding Required. Official PayPal Partner.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            johnwickjigo
  * Author URI:        http://webs-spider.com/
  * License:           GNU General Public License v3.0

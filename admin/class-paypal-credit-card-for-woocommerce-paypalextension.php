@@ -28,6 +28,7 @@ class PayPal_Credit_Card_For_WooCommerce_PayPalExtension extends WC_Payment_Gate
         $this->id = 'PayPalPro';
         $this->method_title = 'PayPal Credit Card';
         $this->has_fields = true;
+        $this->icon                 = apply_filters('woocommerce_paypal_credit_card_icon', plugins_url( '/assets/images/cards.png', plugin_basename( dirname( __FILE__ ) ) ) );
         $this->acceptableCards = array(
             "Visa",
             "MasterCard",
@@ -223,8 +224,9 @@ class PayPal_Credit_Card_For_WooCommerce_PayPalExtension extends WC_Payment_Gate
         $this->order->add_order_note(
                 sprintf("Paypal Credit Card payment completed with Transaction Id of '%s'", $this->transactionId)
         );
-
-        unset($_SESSION['order_awaiting_payment']);
+        if(isset($_SESSION) && !empty($_SESSION)) {
+            unset($_SESSION['order_awaiting_payment']);
+        }
     }
 
     /**

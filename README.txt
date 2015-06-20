@@ -1,4 +1,4 @@
-=== PayPal Credit Card ===
+=== PayPal Credit Card For WooCommerce ===
 Contributors: johnwickjigo
 Tags: credit card, ecommerce, gateway, paypal, woocommerce, PayPAl Credit Card, PayPal Payment, PayPal Pro, PayPal Pro Credit Card, Card, paypal credit card, apply for credit card, creditcard, payment gateway, virtual merchant, merchant services, credit card calculator, virtual credit card, woocommerce themes, credit card apply, credit card processing, merchant account, apply for a credit card, store credit cards, credit card machine, credit card authorization form, credit card companies, online credit card, ebay credit card, online credit, paypal login, webmoney, paypal uk, pay pal, paypal account, pay, paypal credit, paypall, make money online
 Requires at least: 3.0.1

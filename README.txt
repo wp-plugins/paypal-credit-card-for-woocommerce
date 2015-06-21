@@ -11,6 +11,7 @@ Provides a Credit Card Payment Gateway WooCommerece. No Coding Required. Officia
 == Description ==
 = Introduction =
 
+
 Do you want to accept credit cards on your website and save users confusion and time? This credit card gateway plugin for Woo Commerce lets you accept credit card payments directly on your website via PayPal.
 
 Customers use their credit card during the checkout process and Paypal handles the rest. This lets your users never leave your website for making payments.
